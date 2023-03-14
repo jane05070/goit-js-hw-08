@@ -18,7 +18,7 @@ const onInput = event => {
 
 const onSubmit = event => {
   if (refs.email.value === '' || refs.message.value === '') {
-    alert('Please fill in all fields of the form');
+    alert('Будь ласка заповніть форму');
   } else {
     console.log(formData);
 
